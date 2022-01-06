@@ -4,4 +4,4 @@ Bitcoin clicker was a clicker game started in the mid 2021. Interception wanted 
 
 If you have any issues with the code of a particular file then please send it in the issues tab.
 
-# Please do not fork this repo and act like you coded the entire game.
+# Please read the license file.
