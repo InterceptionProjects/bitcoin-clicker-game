@@ -9,48 +9,6 @@ body {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
-notification-area {
-  position:fixed;
-  top:0px;
-  right:10px;
-  width:250px;
-  height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-end;
-}
-#notification-area .notification {
-  position:relative;
-  padding:15px 10px;
-  background:#111;
-  color:#f5f5f5;
-  font-family:"Raleway";
-  font-size:14px;
-  font-weight:600;
-  border-radius:5px;
-  margin:5px 0px;
-  opacity:0;
-  left:20px;
-  animation:showNotification 500ms ease-in-out forwards;
-}
-#notification-area .notification.success {
-  background:orangered;
-}
-@keyframes showNotification {
-  to {
-    opacity:1;
-    left:0px;
-  }
-  from {
-    opacity: 0;
-    right:0px;
-  }
-}
-#discordlogo {
-  top: 3%;
-	left: 1.2%;
-	position: fixed;
-}
 @keyframes moving {
     from {transform: translateY(0px);}
     to {transform: translateY(200px);}
@@ -311,75 +269,6 @@ a:hover{
 #bitcoins:hover {
   box-shadow: 0px 0px 12px	#FFD700;
 }
-	
-#defaultav{
-		border:2px solid #fff;
-   -moz-box-shadow: 10px 10px 5px ;
-  -webkit-box-shadow: 10px 10px 5px ;
-  box-shadow: 10px 10px 5px ;
-  -moz-border-radius:25px;
-  -webkit-border-radius:25px;
-  border-radius:70px;
-  top: 3%;
-	right: 1.2%;
-	position: fixed;
-
-	}
-
-
-
 p{
 	color: #FFD700;
-}
-/* The alert message box */
-.alert {
-   padding: 12px 22px;
-  background-color: #f44336; /* Red */
-  color: white;
-  margin-bottom: 15px;
-   border-radius: 20px;
-   box-shadow: 2px 2px 8px black;
-}
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  transition: 0.7s;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: red;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border-radius: 10px;
-  border: none;
-  border-color: #5c5c5c;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-.modal-content p{
-  color: black;
-}
-
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  transition: 0.2s;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
 }
