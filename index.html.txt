@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A bitcoin clicker game. Includes auto saving system and auto clicks." >
+		<meta name="author" content="Interception" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="icon.png" rel="icon"/>
+    <title>Bitcoin Clicker</title>
+		<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<header>
+  
+			<h1>Bitcoin Clicker (V1)</h1>
+		</header>
+		
+
+		
+		
+		<button id="reset">Reset<br>(can't go back!)</button>
+  
+    
+		<h2> ChangeLog DD/MM/YYYY<br> <br> <br> <br> <br> <br> </h2>
+	
+		<h3>Credits <br> Coded by Interception  <br> -Helpers:  Pacific, <br>ShreddR and DarkestAspect.<br> <br> </h3>
+		<main>
+			
+			
+			<h6 id="tag1"> Coming soon</h6>
+			
+		
+			
+<button style="transition: 0.5s;" id="myBtn" >View Total Score</button>
+
+      <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Coming Soon...</p>
+  </div>
+
+</div>
+			
+			
+			<img src="bitcoin.png" width="100px" id="bitcoins">
+			
+			<p id="score"></p>
+			<p id="perClick"></p>
+			<p id="perSec"></p>
+
+			<button class="upgrade" id="upgrade1">Upgrade bitcoin per click (+1)</button>
+			
+			<button class="auto" id="auto1">Increase bitcoin per second (+1)</button>
+
+			<br>
+
+			<button class="upgrade" id="upgrade10">Upgrade bitcoin per click (+10)</button>
+
+			<button class="auto" id="auto10">Increase bitcoin per second (+10)</button>
+			<br>
+			<button class="upgrade" id="upgrade100">Upgrade bitcoin per click (+100)</button>
+
+			<button class="auto" id="auto100">Increase bitcoin per second (+100)</button>
+
+			<br>
+
+			<button class="upgrade" id="upgrade1000">Upgrade bitcoin per click (+1000)</button>
+			
+			<button class="auto" id="auto1000">Increase bitcoin per second (+1000)</button>
+    <div id="notification-area">
+</div>
+		</main>
+   <script src="game.js"></script>
+  </body>
+</html>
